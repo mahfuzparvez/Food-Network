@@ -65,22 +65,31 @@ body{
 }
 .section5{
     display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    background-color: #f1f2f6;
 }
-.section5 image{
+.card img{
     width: 100%;
 }
 .card{
-    margin-left: 20px;
-    padding-right: 20px;
+    width: 28%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
 }
-#social-box{
+#lastbox{
     display: flex;
+    margin-left: 28%;
 }
-.social-div{
-    font-size: 30px;
+.lasttittle{
+    font-size: 20px;
+    margin-right: 10%;
+}
+#footer{
+    color: white;
     text-align: center;
-}
-.footer{
     background-color: black;
 }
 #footer-span{
