@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 .Skip_color{
     color: chocolate;
 }
@@ -8,6 +11,7 @@
 }
 .section1{
     display: flex;
+    padding-bottom: 50px;
 }
 .half-width{
     width: 10px;
@@ -22,6 +26,24 @@
     color: white;
     font-weight: 600;
     background-image: linear-gradient(orange , red);
-    padding: 15px 30px;
+    padding: 15px 40px 20px;
     border-radius: 20px;
+}
+.order1{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(orange , red);
+    padding: 15px 50px 20px;
+    border-radius: 20px;
+}
+.midle{
+    background-image: url(Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    padding-left: 0%;
+    display: flex;
+}
+.midle image{
+    width: 30px;
+    height: 70px;
 }
