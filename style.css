@@ -63,3 +63,26 @@ body{
 #ctnter{
     text-align: center;
 }
+.section5{
+    display: flex;
+}
+.section5 image{
+    width: 100%;
+}
+.card{
+    margin-left: 20px;
+    padding-right: 20px;
+}
+#social-box{
+    display: flex;
+}
+.social-div{
+    font-size: 30px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+}
+#footer-span{
+    color: tomato;
+}
